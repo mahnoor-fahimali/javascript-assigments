@@ -88,5 +88,3 @@ document.write("<th>" + percentage.toFixed(2) + "%</th>");
 document.write("</tr>");
 
 document.write("</table>");
-
-var fruits = ["banana", "apple", "mango", "kiwi"]
