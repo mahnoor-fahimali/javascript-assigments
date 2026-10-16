@@ -17,6 +17,8 @@ This repository contains my chapter-wise assignments and coding practice while l
 | `assignmentChapterno.21-25` | 21–25 |
 | `assignmentChapterno.26-30` | 26–30 |
 | `assignmentChapterno.31-34` | 31–34 |
+| `assignmentChapterno.31-34` | 35–38 |
+| `assignmentChapterno.31-34` | 39–42 |
 
 ## 🛠️ Technologies
 
