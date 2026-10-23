@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>JavaScript Assignment</h1>
+
+    <!-- Question 1 -->
+    <div class="section">
+        <h2>1. Welcome Message</h2>
+        <a href="#" onclick="greet(); return false;">Click here</a>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="section">
+        <h2>2. Mobile Gallery</h2>
+
+        <div class="gallery">
+            <img src="./images/image1.jpg" onclick="showMessage()" alt="Mobile 1">
+            <img src="./images/image2.jpg" onclick="showMessage()" alt="Mobile 2">
+            <img src="./images/image3.jpg" onclick="showMessage()" alt="Mobile 3">
+            <img src="./images/image4.jpg" onclick="showMessage()" alt="Mobile 4">
+        </div>
+    </div>
+
+    <!-- Question 3 -->
+    <div class="section">
+        <h2>3. Student Records</h2>
+
+        <table>
+            <tr>
+                <th>Index</th>
+                <th>Name</th>
+                <th>Class</th>
+                <th>Action</th>
+            </tr>
+            <tr><td>0</td><td>Joe</td><td>10</td><td><button onclick="deleteRow(this)">Delete</button></td></tr>
+            <tr><td>1</td><td>Olivia</td><td>9</td><td><button onclick="deleteRow(this)">Delete</button></td></tr>
+            <tr><td>2</td><td>John</td><td>10</td><td><button onclick="deleteRow(this)">Delete</button></td></tr>
+            <tr><td>3</td><td>Doe</td><td>8</td><td><button onclick="deleteRow(this)">Delete</button></td></tr>
+            <tr><td>4</td><td>Mark</td><td>6</td><td><button onclick="deleteRow(this)">Delete</button></td></tr>
+            <tr><td>5</td><td>James</td><td>9</td><td><button onclick="deleteRow(this)">Delete</button></td></tr>
+            <tr><td>6</td><td>Sara</td><td>8</td><td><button onclick="deleteRow(this)">Delete</button></td></tr>
+            <tr><td>7</td><td>Ali</td><td>10</td><td><button onclick="deleteRow(this)">Delete</button></td></tr>
+            <tr><td>8</td><td>Emma</td><td>7</td><td><button onclick="deleteRow(this)">Delete</button></td></tr>
+            <tr><td>9</td><td>Noah</td><td>9</td><td><button onclick="deleteRow(this)">Delete</button></td></tr>
+        </table>
+    </div>
+
+    <!-- Question 4 -->
+    <div class="section">
+        <h2>4. Change Image on Mouseover</h2>
+
+        <div id="pic" onmouseover="secondImage()" onmouseout="firstImage()">
+            <img src="./images/jasmine.jpg" alt="Jasmine flower">
+        </div>
+    </div>
+
+    <!-- Question 5 -->
+    <div class="section">
+        <h2>5. Counter</h2>
+
+        <div class="counter">
+            <div class="number-box">
+                <span id="number">0</span>
+            </div>
+
+            <div class="buttons">
+                <button onclick="increment()">+</button>
+                <button onclick="decrement()">−</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
