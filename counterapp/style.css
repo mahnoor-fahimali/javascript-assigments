@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #eaeff1;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 320px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #333;
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.counter-display {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.05);
+}
+
+#number {
+    font-size: 56px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.1s ease, background-color 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.increment-btn {
+    background-color: #4CAF50;
+    color: white;
+    flex: 1;
+}
+
+.increment-btn:hover {
+    background-color: #45a049;
+}
+
+.decrement-btn {
+    background-color: #f44336;
+    color: white;
+    flex: 1;
+}
+
+.decrement-btn:hover {
+    background-color: #e53935;
+}
+
+.reset-btn {
+    background-color: #ff9800;
+    color: white;
+    font-size: 14px;
+    padding: 15px 15px;
+    flex: 1;
+}
+
+.reset-btn:hover {
+    background-color: #fb8c00;
+}
