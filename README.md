@@ -19,6 +19,9 @@ This repository contains my chapter-wise assignments and coding practice while l
 | `assignmentChapterno.31-34` | 31–34 |
 | `assignmentChapterno.35-38` | 35–38 |
 | `assignmentChapterno.39-42` | 39–42 |
+| `assignmentChapterno.43-48` | 43–48 |
+| `assignmentOfCounterApp` | counter |
+| `assignmentOfCalculatorApp` | calculator |
 
 ## 🛠️ Technologies
 
