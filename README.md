@@ -27,6 +27,7 @@ This repository contains my chapter-wise assignments and coding practice while l
 
 - JavaScript
 - HTML
+- CSS
 
 ## 🎯 Learning Goals
 
