@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Assignment 49-52</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <h2>Signup Form</h2>
+
+    <form onsubmit="signup(); return false;">
+
+        <input type="text" id="name" placeholder="Enter Name" required><br><br>
+
+        <input type="email" id="email" placeholder="Enter Email" required><br><br>
+
+        <input type="password" id="password" placeholder="Enter Password" required><br><br>
+
+        <button type="submit">Signup</button>
+
+    </form>
+
+    <h3>Signup Details:</h3>
+    <div id="result"></div>
+
+
+    <hr>
+
+
+
+    <h2>Read More</h2>
+
+    <p>
+        JavaScript is a programming language.
+        <span id="more" style="display:none;">
+            It is used to make websites interactive.
+            It can also handle events and user actions.
+        </span>
+    </p>
+
+    <button id="readBtn" onclick="readMore()">Read More</button>
+
+
+    <hr>
+
+
+    <h2>Student Details</h2>
+
+    <input type="text" id="studentName" placeholder="Student Name"><br><br>
+
+    <input type="text" id="studentClass" placeholder="Class"><br><br>
+
+    <input type="text" id="studentAge" placeholder="Age"><br><br>
+
+    <button onclick="addStudent()">Add Student</button>
+
+    <br><br>
+
+    <table border="1" cellpadding="10" id="studentTable">
+
+        <tr>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Age</th>
+            <th>Action</th>
+        </tr>
+
+    </table>
+
+
+    <div id="editForm" style="display:none;">
+
+        <h3>Edit Student Details</h3>
+
+        <input type="text" id="editName" placeholder="Student Name"><br><br>
+
+        <input type="text" id="editClass" placeholder="Class"><br><br>
+
+        <input type="text" id="editAge" placeholder="Age"><br><br>
+
+        <button onclick="updateStudent()">Update</button>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

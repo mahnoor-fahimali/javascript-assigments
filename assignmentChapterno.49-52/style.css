@@ -1,0 +1,162 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f5fa;
+    color: #333;
+    padding: 30px 15px;
+}
+
+h1 {
+    text-align: center;
+    color: #4f8fc9;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #4f8fc9;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin: 20px 0 10px;
+    color: #555;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+
+.card {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #d5e1ed;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #4f8fc9;
+}
+
+
+
+button {
+    background-color: #4f8fc9;
+    color: white;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #3678b3;
+}
+
+
+
+#result {
+    background-color: #f0f7ff;
+    padding: 15px;
+    border-radius: 6px;
+    line-height: 1.8;
+    overflow-wrap: anywhere;
+}
+
+
+
+p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #4f8fc9;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #d5e1ed;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f7ff;
+}
+
+
+td button {
+    margin: 3px;
+    padding: 8px 12px;
+}
+
+
+#editForm {
+    background-color: #f0f7ff;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        padding: 20px 10px;
+    }
+
+    .card {
+        padding: 18px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    td, th {
+        padding: 8px;
+        font-size: 13px;
+    }
+
+}
