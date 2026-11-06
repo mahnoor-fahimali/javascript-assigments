@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assests/GIF/background.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+}
+
+.char{
+    height: 200px;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+#char2{
+    left: auto;
+    position: absolute;
+    right: 50px;
+    transform: scaleX(-1);
+}
