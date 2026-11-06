@@ -22,6 +22,7 @@ This repository contains my chapter-wise assignments and coding practice while l
 | `assignmentChapterno.43-48` | 43–48 |
 | `assignmentOfCounterApp` | counter |
 | `assignmentOfCalculatorApp` | calculator |
+| `assignmentOfForm` | Form |
 
 ## 🛠️ Technologies
 
