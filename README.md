@@ -23,6 +23,7 @@ This repository contains my chapter-wise assignments and coding practice while l
 | `assignmentOfCounterApp` | counter |
 | `assignmentOfCalculatorApp` | calculator |
 | `assignmentOfForm` | Form |
+| `gameAnimation` | gameAnimation |
 
 ## 🛠️ Technologies
 
